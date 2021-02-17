@@ -107,17 +107,17 @@ body {
     padding: 1.3rem;
 }
 
-.app-download {
-    height: 3rem;
-    width: 10rem;
-    background-size: cover;
+.download{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.app-download:nth-child(1) {
-    background-image: url('./imgs/logo-app-store.png');
+.img-logo1 {
+    height: 100px;
 }
 
-.app-download:nth-child(2){
-    background-image: url('./imgs/logo-playstore.jpg');
+.img-logo2 {
+    height: 65px;
 }
+
 
