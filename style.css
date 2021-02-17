@@ -104,20 +104,54 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem;
+    padding: 1.3rem 0;
 }
 
 .download{
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
 }
 
-.img-logo1 {
-    height: 100px;
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
 }
 
-.img-logo2 {
-    height: 65px;
+.app-download:nth-child(1){
+    background-image: url('./imgs/logo-app-store.png');
 }
 
+.app-download:nth-child(2){
+    background-image: url('./imgs/logo-playstore.jpg');
+}
 
+/* Media queries */
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+}
